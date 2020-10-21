@@ -21,7 +21,7 @@ Before we begin, lets see a network diagram example of what we will be building:
 In a terminal, run:
 
 ```shell
-$ docker network create -d bridge --subnet 172.24.0.0/16 --gateway 172.24.0.1/16 testnet
+$ docker network create -d bridge --subnet 172.24.0.0/16 --gateway 172.24.0.1 testnet
 ```
 
 This will create a bridge network with the subnet ID of 172.24.0.0/16 and a default gateway of 172.24.0.1/16. The default gateway
